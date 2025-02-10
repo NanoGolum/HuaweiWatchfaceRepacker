@@ -5,11 +5,15 @@ Open .hwt file like a zip archive, extract "com.huawei.watchface". In case if it
 
 Unpacking:
 
-It's betetr to put "com.huawei.watchface" or bin file in the same directory with the tool. Run it on the command line:
+It's betetr to put "com.huawei.watchface" or .bin file in the same directory with the tool. Run it on the command line:
 
 HuaweiWatchfaceRepacker.exe unpack com.huawei.watchface
 
-In case file name is different form "com.huawei.watchface", then specify its name, for example: HuaweiWatchfaceRepacker.exe unpack watchface.bin If you are lucky, an "input_file_name.out" directory will be created (for example, "com.huawei.watchface.out"), where all the images in .png format and the header (needed for repacking) will be extracted.
+In case file name is different form "com.huawei.watchface", then specify its name, for example: 
+
+HuaweiWatchfaceRepacker.exe unpack watchface.bin 
+
+If you are lucky, an "input_file_name.out" directory will be created (for example, "com.huawei.watchface.out"), where all the images in .png format and the header (needed for repacking) will be extracted.
 
 Repacking:
 
